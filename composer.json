@@ -1,0 +1,30 @@
+{
+    "name": "mpietrucha/forward",
+    "description": "The forward package.",
+    "license": "MIT",
+    "type": "liblary",
+    "authors": [
+        {
+            "name": "Michał Pietrucha",
+            "email": "michal.pietrucha@off-site.pl"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "mpietrucha/utility": "dev-main"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "symfony/var-dumper": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mpietrucha\\Support\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
